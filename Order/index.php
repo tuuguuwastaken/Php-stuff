@@ -77,16 +77,6 @@ if(isset($_POST['submit'])){
         </div>
     </div>
     <script src="">
-        function myAjax() {
-            $.ajax({
-                type: "POST",
-                url: 'localhost/sendMenu.php',
-                data:{action:'call_this'},
-                success:function(html) {
-                    alert(html);
-                }
-            });
-        }
     </script>
 </body>
 </html>
